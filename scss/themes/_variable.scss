@@ -1,0 +1,27 @@
+//Chứa biến và mixin
+// bg: css cho màu background
+$bg-c1-primary: #2a73dd;
+$bg-c1-light:#fff;
+$bg-c1-transparent:rgba(0,0,0,0);
+$bg-none:none;
+// text: css cho text
+// text-color: c1,c2 --> quyết định màu đậm nhạt
+$text-c1-primary: #2a73dd;
+$text-c1-dark: #000;
+$text-c1-light:#fff;
+// text-size
+$text-xs: 10px;
+$text-base: 16px;
+$text-xl: 18px;
+$text-2xl: 20px;
+$text-3xl: 30px;
+$text-4xl: 40px;
+$text-5xl: 50px;
+$text-6xl: 60px;
+$text-7xl: 70px;
+
+// text-font-weight
+$text-light: 300;
+$text-regular: 400;
+$text-semibold: 600;
+$text-bold: 700;
