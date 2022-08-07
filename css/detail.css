@@ -66,3 +66,88 @@ li {
   font-weight: 300;
   color: #ffffff;
 }
+
+.menu {
+  height: 50px;
+}
+.menu ul {
+  height: 50px;
+  margin: 0 24px;
+}
+.menu ul .sport::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 110%;
+  height: 1px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+}
+.menu ul .box-kid::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 55%;
+  height: 1px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+}
+.menu ul li {
+  position: relative;
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.menu ul li a {
+  color: #000;
+  font-size: 20px;
+}
+.menu ul li .gender {
+  opacity: 70%;
+}
+.menu ul li .men {
+  margin-right: 37px;
+}
+.menu ul li .woman {
+  margin-right: 39px;
+}
+.menu ul li .kid {
+  margin-right: 40px;
+}
+.menu ul li::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 70%;
+  height: 1px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+.menu ul li:hover::after {
+  transform: scale(1);
+}
+.menu ul .active {
+  position: relative;
+}
+.menu ul .active a {
+  margin-right: 24px;
+}
+.menu ul .active::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+  transform: scale(1);
+}

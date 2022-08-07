@@ -68,3 +68,93 @@ li {
     }
 }
 }
+.menu {
+	height: 50px;
+	ul {
+		height: 50px;
+		margin: 0 24px;
+		.sport {
+			&::after {
+				content: "";
+				display: block;
+				background-color: #000;
+				width: 110%;
+				height: 1px;
+				margin-top: 10px;
+				position: absolute;
+				bottom: -5px;
+				left: -3px;
+			}
+		}
+		.box-kid {
+			&::after {
+				content: "";
+				display: block;
+				background-color: #000;
+				width: 55%;
+				height: 1px;
+                margin-top: 10px;
+				position: absolute;
+				bottom: -5px;
+				left: -3px;
+			}
+		}
+		li {
+			position: relative;
+			display: inline-block;
+			margin-top: 16px;
+			margin-bottom: 10px;
+			a {
+				color: #000;
+				font-size: 20px;
+			}
+			.gender {
+				opacity: 70%;
+			}
+			.men {
+				margin-right: 37px;
+			}
+			.woman {
+				margin-right: 39px;
+			}
+            .kid {
+				margin-right: 40px;
+			}
+			&::after {
+				content: "";
+				display: block;
+				background-color: #000;
+				width: 70%;
+				height: 1px;
+				margin-top: 10px;
+				position: absolute;
+				bottom: -5px;
+				left: -3px;
+				transform: scale(0);
+				transition: all 0.5s;
+			}
+			&:hover {
+				&::after {
+					transform: scale(1);
+				}
+			}
+		}
+		.active {
+			position: relative;
+			a {
+				margin-right: 24px;
+			}
+            &::after {
+				content: "";
+				display: block;
+				background-color: #000;
+				width: 80%;
+				height: 1px;
+				position: absolute;
+				bottom: -5px;
+				left: -3px;
+				transform: scale(1);
+			}
+		}
+	}
+}
