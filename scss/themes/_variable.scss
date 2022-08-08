@@ -1,19 +1,25 @@
 //Chứa biến và mixin
 // bg: css cho màu background
 $bg-c1-primary: #2a73dd;
-$bg-c1-light:#fff;
+$bg-c1-light:#F5F5F5;
 $bg-c1-transparent:rgba(0,0,0,0);
 $bg-none:none;
+$bg-grey: #F8F8F8;
+$bg-buynow: #E1B067;
+$bg-money:#DEDDDC;
+
 // text: css cho text
 // text-color: c1,c2 --> quyết định màu đậm nhạt
 $text-c1-primary: #2a73dd;
-$text-c1-dark: #000;
+$text-c1-dark: #000000;
 $text-c1-light:#fff;
+$text-c1-p:#CBC9C9;
 // text-size
 $text-xs: 10px;
 $text-base: 16px;
 $text-xl: 18px;
 $text-2xl: 20px;
+$text-medium: 24px;
 $text-3xl: 30px;
 $text-4xl: 40px;
 $text-5xl: 50px;

@@ -1,2 +1,156 @@
 @import'../../scss/themes/variable';
 @import'../base/components/component';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+//Carousel
+.carousel {
+    .container_carousel {
+
+        height: 500px;
+        background-image: url(../../img/image\ 6.png);
+        background-size: cover;
+        background-color: #F5F5F5;
+
+        .carousel1 {
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            img {
+                top: 5px;
+                left: 86px;
+
+            }
+
+            .carousel_content {
+                h2 {
+                    font-size: $text-4xl;
+                    font-weight: $text-light;
+
+                }
+
+                p {
+                    font-size: $text-2xl;
+                    font-weight: $text-light;
+
+
+                }
+
+                button {
+                    font-size: $text-2xl;
+                    font-weight: $text-light;
+                    background-color: #F8B653;
+                    padding: 13px 63px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+//product features 
+
+.product_feature {
+    .headline {
+        margin-top: 46px;
+        margin-bottom: 89px;
+
+        h1 {
+            font-size: $text-4xl;
+            font-weight: $text-regular;
+            text-align: center;
+            color: $text-c1-dark;
+        }
+
+
+
+    }
+
+    .product_content {
+        .row {
+            .col-4 {
+
+                left: 99px;
+                right: 46px;
+
+                .card {
+                    width: 334px;
+                    height: 369px;
+                    background-color: $bg-grey;
+                    // align-items: center;
+                    position: relative;
+
+
+
+                    img {
+                        width: 220px;
+                        height: 156px;
+                        margin-right: 57px;
+                        margin-left: 57px;
+                        margin-top: 45px;
+                        margin-bottom: 30px;
+                    }
+
+                    .info {
+                        margin-left: 23px;
+
+                        h4 {
+                            font-size: $text-medium;
+                            font-weight: $text-light;
+                            color: $text-c1-dark;
+                        }
+
+                        p {
+                            font-size: $text-2xl;
+                            font-weight: $text-light;
+                            color: $text-c1-p;
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .button {
+                        position: absolute;
+                        bottom: 0;
+                        left: 15px;
+
+                        button {
+                            background-color: $bg-buynow;
+                            font-size: $text-medium;
+                            font-weight: $text-light;
+                            color: $text-c1-dark;
+                            width: 175px;
+                            height: 64px;
+                            border: none;
+
+
+
+                        }
+
+                        .price {  
+                            width: 159px;
+                            height: 64px;
+                            background-color: $bg-money;
+                            
+                            h4 {
+                                text-align: center;
+                                font-size: $text-medium;
+                                font-weight: $text-semibold;
+                                margin: 17px auto; }               
+                
+                    }
+
+                    
+                }
+            }
+
+        }
+    }
+}
+}
