@@ -43,7 +43,7 @@ for (i=0; i < arrayProduct.length; i++) {
               </div>
               <div class="button row">
               
-                  <button>Buy Now</button>
+                  <button> <a href="detail.html?id=${product.id}">Buy Now</a></button>
                   <div class="price">
                     <h4>${product.price}$</h4>
                     </div>
@@ -56,5 +56,6 @@ for (i=0; i < arrayProduct.length; i++) {
 }
 document.querySelector('#productList').innerHTML =html;
  }
+
 
 

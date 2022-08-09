@@ -64,7 +64,7 @@
 
         h1 {
             font-size: $text-4xl;
-            font-weight: $text-regular;
+            font-weight: 200;
             text-align: center;
             color: $text-c1-dark;
         }
@@ -75,10 +75,12 @@
 
     .product_content {
         .row {
+           
             .col-4 {
 
                 left: 99px;
                 right: 46px;
+                margin-bottom: 15px;
 
                 .card {
                     width: 334px;
@@ -121,13 +123,20 @@
                         left: 15px;
 
                         button {
+                           
                             background-color: $bg-buynow;
-                            font-size: $text-medium;
-                            font-weight: $text-light;
-                            color: $text-c1-dark;
                             width: 175px;
                             height: 64px;
-                            border: none;
+                            border-color: transparent;
+                             a {
+                                font-size: $text-medium;
+                                font-weight: $text-light;
+                                color: #000000
+                                ;
+                              
+                              
+                             }
+                            
 
 
 

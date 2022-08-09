@@ -49,6 +49,7 @@
 .product_feature .product_content .row .col-4 {
   left: 99px;
   right: 46px;
+  margin-bottom: 15px;
 }
 .product_feature .product_content .row .col-4 .card {
   width: 334px;
@@ -81,9 +82,12 @@
 .product_feature .product_content .row .col-4 .card .button {
   position: absolute;
   bottom: 0;
+  left: 15px;
 }
 .product_feature .product_content .row .col-4 .card .button button {
   background-color: #E1B067;
+}
+.product_feature .product_content .row .col-4 .card .button button a {
   font-size: 24px;
   font-weight: 300;
   color: #000000;
@@ -91,12 +95,16 @@
   height: 64px;
   border: none;
 }
-.product_feature .product_content .row .col-4 .card .button span {
-  width: 160px;
+.product_feature .product_content .row .col-4 .card .button .price {
+  width: 159px;
   height: 64px;
+  background-color: #DEDDDC;
+}
+.product_feature .product_content .row .col-4 .card .button .price h4 {
+  text-align: center;
   font-size: 24px;
   font-weight: 600;
-  background-color: #DEDDDC;
+  margin: 17px auto;
 }
 
 .carousel .container_carousel .carousel1 {
