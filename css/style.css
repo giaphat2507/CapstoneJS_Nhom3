@@ -42,7 +42,7 @@
 }
 .product_feature .headline h1 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 200;
   text-align: center;
   color: #000000;
 }
@@ -86,14 +86,14 @@
 }
 .product_feature .product_content .row .col-4 .card .button button {
   background-color: #E1B067;
+  width: 175px;
+  height: 64px;
+  border-color: transparent;
 }
 .product_feature .product_content .row .col-4 .card .button button a {
   font-size: 24px;
   font-weight: 300;
   color: #000000;
-  width: 175px;
-  height: 64px;
-  border: none;
 }
 .product_feature .product_content .row .col-4 .card .button .price {
   width: 159px;

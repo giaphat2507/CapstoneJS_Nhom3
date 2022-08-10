@@ -151,3 +151,73 @@ li {
   left: -3px;
   transform: scale(1);
 }
+.menu .product_feature .headline {
+  margin-top: 46px;
+  margin-bottom: 89px;
+}
+.menu .product_feature .headline h1 {
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  color: #000000;
+}
+.menu .product_feature .product_content .row .col-4 {
+  left: 99px;
+  right: 46px;
+  margin-bottom: 15px;
+}
+.menu .product_feature .product_content .row .col-4 .card {
+  width: 334px;
+  height: 369px;
+  background-color: #F8F8F8;
+  position: relative;
+}
+.menu .product_feature .product_content .row .col-4 .card img {
+  width: 220px;
+  height: 156px;
+  margin-right: 57px;
+  margin-left: 57px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+.menu .product_feature .product_content .row .col-4 .card .info {
+  margin-left: 23px;
+}
+.menu .product_feature .product_content .row .col-4 .card .info h4 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000;
+}
+.menu .product_feature .product_content .row .col-4 .card .info p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #CBC9C9;
+  margin-bottom: 0;
+}
+.menu .product_feature .product_content .row .col-4 .card .button {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+.menu .product_feature .product_content .row .col-4 .card .button button {
+  background-color: #E1B067;
+  width: 175px;
+  height: 64px;
+  border-color: transparent;
+}
+.menu .product_feature .product_content .row .col-4 .card .button button a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000;
+}
+.menu .product_feature .product_content .row .col-4 .card .button .price {
+  width: 159px;
+  height: 64px;
+  background-color: #DEDDDC;
+}
+.menu .product_feature .product_content .row .col-4 .card .button .price h4 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 17px auto;
+}
