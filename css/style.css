@@ -5,6 +5,160 @@
   font-family: "Inter", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 50px;
+  background: #000;
+}
+.header .container_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 24px;
+}
+.header .container_header .left {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.header .container_header .right {
+  display: flex;
+  align-items: center;
+}
+.header .container_header .right .pay {
+  display: flex;
+  align-items: center;
+}
+.header .container_header .right .pay a img {
+  display: block;
+  width: 100%;
+}
+.header .container_header .right .pay .soLuong {
+  display: flex;
+  align-items: center;
+}
+.header .container_header .right .pay .soLuong span {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+}
+.header .container_header .right .login_register {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.header .container_header .right .login_register .login {
+  margin-right: 20px;
+}
+.header .container_header .right .login_register .login a {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.header .container_header .right .login_register .register a {
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.menu {
+  height: 50px;
+}
+.menu ul {
+  height: 50px;
+  margin: 0 24px;
+}
+.menu ul .sport::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 110%;
+  height: 1px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+}
+.menu ul .box-kid::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 55%;
+  height: 1px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+}
+.menu ul li {
+  position: relative;
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.menu ul li a {
+  color: #000;
+  font-size: 20px;
+}
+.menu ul li .gender {
+  opacity: 70%;
+}
+.menu ul li .men {
+  margin-right: 37px;
+}
+.menu ul li .woman {
+  margin-right: 39px;
+}
+.menu ul li .kid {
+  margin-right: 40px;
+}
+.menu ul li::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 70%;
+  height: 1px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+.menu ul li:hover::after {
+  transform: scale(1);
+}
+.menu ul .active {
+  position: relative;
+}
+.menu ul .active a {
+  margin-right: 24px;
+}
+.menu ul .active::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  bottom: -5px;
+  left: -3px;
+  transform: scale(1);
+}
+
 .carousel .container_carousel {
   height: 500px;
   background-image: url(../../img/image\ 6.png);
@@ -52,7 +206,7 @@
   margin-bottom: 15px;
 }
 .product_feature .product_content .row .col-4 .card {
-  width: 334px;
+  width: 350px;
   height: 369px;
   background-color: #F8F8F8;
   position: relative;

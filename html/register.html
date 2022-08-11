@@ -79,31 +79,37 @@
                         <div class="input input1">
                             <input type="text" placeholder="email" id="email">
                             <span id="tbEmail">(*)</span>
+                            <p id="error_email"></p>
                         </div>
                         <div class="input input2">
-                            <input type="text" placeholder="password" id="password">
+                            <input type="password" placeholder="Mật khẩu" id="password">
                             <span id="tbPassword">(*)</span>
+                            <p id="error_password"></p>
                         </div>
                         <div class="input input3">
-                            <input type="text" placeholder="password confirm">
+                            <input type="password" placeholder="password confirm" id="PasswordConfirm">
                             <span id="tbPasswordConfirm">(*)</span>
+                            <p id="error_confirm_password"></p>
+                            <p id="error_match_password"></p>
                         </div>
                     </div>
                     <div class="col-right">
                         <div class="input input1">
                             <input type="text" placeholder="name" id="name">
                             <span id="tbName">(*)</span>
+                            <p id="error_name"></p>
                         </div>
                         <div class="input input2">
                             <input type="text" placeholder="phone" id="phone">
                             <span id="tbPhone">(*)</span>
+                            <p id="error_phone"></p>
                         </div>
                         <div class="gender input3">
                             <span id="tbGender"></span>
                             <label>Gender</label>
-                            <input type="radio" placeholder="phone" name="gender" value="true">
+                            <input type="radio" placeholder="phone" name="gender" value=" true" checked>
                             <label for="male">Male</label>
-                            <input type="radio" placeholder="phone" name="gender" value="">
+                            <input type="radio" placeholder="phone" name="gender" value="false">
                             <label for="female">Female</label>
                         </div>
                         <button id="btnSubmit">Submit</button>
@@ -123,6 +129,8 @@
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <!-- my js -->
-        <script src="../controllers/register.js"></script>
+        <script src="../model/account.js"></script>
+        <script src="../ulti/method/method.js"></script>
+        <script src="../controller/registerAjax.js"></script>
     </body>
 </html> 

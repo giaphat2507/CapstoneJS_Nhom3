@@ -237,14 +237,14 @@ li {
     .product_content {
         .row {
            
-            .col-4 {
+            .column {
 
                 left: 99px;
                 right: 46px;
-                margin-bottom: 15px;
+                margin-bottom: 50px;
 
                 .card {
-                    width: 334px;
+                    width: 350px;
                     height: 369px;
                     background-color: $bg-grey;
                     // align-items: center;
@@ -304,7 +304,7 @@ li {
                         }
 
                         .price {  
-                            width: 159px;
+                            width: 175px;
                             height: 64px;
                             background-color: $bg-money;
                             
