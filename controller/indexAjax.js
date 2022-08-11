@@ -34,7 +34,7 @@ for (i=0; i < arrayProduct.length; i++) {
 
     html += `
 
-    <div class="col-4">
+    <div class="column col-12 col-sm-12 col-md-6 col-lg-4">
             <div class="card">
               <img src="${product.image}" alt="">
               <div class="info">

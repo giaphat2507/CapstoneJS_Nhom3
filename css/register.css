@@ -101,6 +101,9 @@
   line-height: 24px;
   text-align: end;
 }
+.register .container .row .col-right .input p {
+  margin-top: 15px;
+}
 .register .container .row .col-right .input1 {
   top: 140px;
 }
@@ -211,6 +214,9 @@
   color: #F50E0E;
   line-height: 24px;
   text-align: end;
+}
+.register .container .row .col-left .input p {
+  margin-top: 15px;
 }
 .register .container .row .col-left .input1 {
   top: 140px;
@@ -400,6 +406,9 @@ li {
   }
   .register .container .row .col-right .input input {
     font-size: 20px;
+  }
+  .register .container .row .col-right .input p {
+    margin-top: 15px;
   }
   .register .container .row .col-left .input {
     height: 40px !important;
