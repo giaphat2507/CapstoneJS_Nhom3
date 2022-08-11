@@ -521,3 +521,7 @@ li {
     left: auto;
   }
 }
+footer .footer_img img {
+  display: block;
+  width: 100%;
+}

@@ -260,3 +260,8 @@ li {
   font-weight: 600;
   margin: 17px auto;
 }
+
+footer .footer_img img {
+  display: block;
+  width: 100%;
+}
