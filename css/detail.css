@@ -151,28 +151,125 @@ li {
   left: -3px;
   transform: scale(1);
 }
-.menu .product_feature .headline {
+
+.product_detail .container {
+  display: flex;
+  padding: 0;
+}
+.product_detail .container .thumbnail {
+  padding: 0;
+  background: #F8F8F8;
+  margin-left: 4px;
+  margin-top: 58px;
+  margin-bottom: 117px;
+}
+.product_detail .container .thumbnail img {
+  display: block;
+  width: 100%;
+  padding: 109px 57px 90px;
+}
+.product_detail .container .detail {
+  padding: 0;
+}
+.product_detail .container .detail .card_detail {
+  margin-left: 128px;
+  margin-right: 188px;
+}
+.product_detail .container .detail .card_detail h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 67px;
+}
+.product_detail .container .detail .card_detail span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #140101;
+}
+.product_detail .container .detail .card_detail p {
+  font-size: 24px;
+  font-weight: 500px;
+  color: #1ED90E;
+  margin: 0;
+}
+.product_detail .container .detail .card_detail ul {
+  list-style: none;
+}
+.product_detail .container .detail .card_detail ul li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 16px;
+}
+.product_detail .container .detail .card_detail ul li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #CCCCCC;
+  color: #1E1D1D;
+}
+.product_detail .container .detail .card_detail h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #FC0303;
+  margin-bottom: 15px;
+}
+.product_detail .container .detail .card_detail .soLuong a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: linear-gradient(180deg, #6181F3 0%, #7C97F5 99.48%);
+  color: #FFFCFC;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.product_detail .container .detail .card_detail .soLuong span {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.product_detail .container .detail .card_detail button {
+  display: inline-block;
+  margin-top: 7px;
+  width: 175px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #D017EE 89.71%);
+  color: rgb(255, 248, 248);
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.product_feature .headline {
   margin-top: 46px;
   margin-bottom: 89px;
 }
-.menu .product_feature .headline h1 {
+.product_feature .headline h1 {
   font-size: 40px;
   font-weight: 200;
   text-align: center;
   color: #000000;
 }
-.menu .product_feature .product_content .row .col-4 {
+.product_feature .product_content .row .col-4 {
   left: 99px;
   right: 46px;
   margin-bottom: 15px;
 }
-.menu .product_feature .product_content .row .col-4 .card {
+.product_feature .product_content .row .col-4 .card {
   width: 334px;
   height: 369px;
   background-color: #F8F8F8;
   position: relative;
 }
-.menu .product_feature .product_content .row .col-4 .card img {
+.product_feature .product_content .row .col-4 .card img {
   width: 220px;
   height: 156px;
   margin-right: 57px;
@@ -180,44 +277,188 @@ li {
   margin-top: 45px;
   margin-bottom: 30px;
 }
-.menu .product_feature .product_content .row .col-4 .card .info {
+.product_feature .product_content .row .col-4 .card .info {
   margin-left: 23px;
 }
-.menu .product_feature .product_content .row .col-4 .card .info h4 {
+.product_feature .product_content .row .col-4 .card .info h4 {
   font-size: 24px;
   font-weight: 300;
   color: #000000;
 }
-.menu .product_feature .product_content .row .col-4 .card .info p {
+.product_feature .product_content .row .col-4 .card .info p {
   font-size: 20px;
   font-weight: 300;
   color: #CBC9C9;
   margin-bottom: 0;
 }
-.menu .product_feature .product_content .row .col-4 .card .button {
+.product_feature .product_content .row .col-4 .card .button {
   position: absolute;
   bottom: 0;
   left: 15px;
 }
-.menu .product_feature .product_content .row .col-4 .card .button button {
+.product_feature .product_content .row .col-4 .card .button button {
   background-color: #E1B067;
   width: 175px;
   height: 64px;
   border-color: transparent;
 }
-.menu .product_feature .product_content .row .col-4 .card .button button a {
+.product_feature .product_content .row .col-4 .card .button button a {
   font-size: 24px;
   font-weight: 300;
   color: #000000;
 }
-.menu .product_feature .product_content .row .col-4 .card .button .price {
+.product_feature .product_content .row .col-4 .card .button .price {
   width: 159px;
   height: 64px;
   background-color: #DEDDDC;
 }
-.menu .product_feature .product_content .row .col-4 .card .button .price h4 {
+.product_feature .product_content .row .col-4 .card .button .price h4 {
   text-align: center;
   font-size: 24px;
   font-weight: 600;
   margin: 17px auto;
+}
+
+footer .footer_img img {
+  display: block;
+  width: 100%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 34px;
+  right: 85px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #DEDDDC;
+  color: #909091;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#myBtn:hover {
+  background-color: #555;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .header .container_header {
+    margin: 0 10px;
+  }
+  .header .container_header .right .pay a img {
+    width: 21px;
+  }
+  .header .container_header .right .pay .soLuong span {
+    font-size: 21px;
+  }
+  .header .container_header .right .login_register {
+    margin-right: 0;
+  }
+  .header .container_header .right .login_register .login a {
+    font-size: 13px;
+  }
+  .header .container_header .right .login_register .register a {
+    font-size: 13px;
+  }
+  .menu ul li a {
+    margin-right: 0;
+    font-size: 15px;
+  }
+  .product_detail .container {
+    padding: 50px;
+  }
+  .product_detail .container .thumbnail img {
+    padding: 50px 20px 15px;
+  }
+  .product_detail .container .detail .card_detail {
+    margin: 0;
+  }
+  .relate-product {
+    margin-top: 100px;
+  }
+  .relate-product .grid-container {
+    margin: 0 70px 89px 70px;
+  }
+  .relate-product .grid-container .grid-content .grid-item {
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .product_detail .container {
+    display: block;
+  }
+  .product_detail .container .thumbnail {
+    margin-bottom: 70px;
+  }
+  .product_detail .container .thumbnail img {
+    padding: 109px 57px 90px;
+  }
+  .product_detail .container .detail .card_detail {
+    margin: 0 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .product_detail .container .thumbnail {
+    margin-bottom: 240px;
+  }
+  .product_detail .container .thumbnail img {
+    padding: 65px 10px 90px;
+  }
+  .relate-product .title {
+    margin-bottom: 60px;
+  }
+  .relate-product .grid-container .grid-content .grid-item {
+    padding: 30px;
+  }
+  .relate-product .grid-container .grid-content .grid-item .card .detail h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .relate-product .grid-container .grid-content .grid-item .card .detail p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .relate-product .grid-container .grid-content .grid-item .card .pay .btn-buy a {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .relate-product .grid-container .grid-content .grid-item .card .pay .price p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .product_detail .container .thumbnail img {
+    padding: 65px 30px 90px;
+  }
+  .product_detail .container .detail .card_detail {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .relate-product .title {
+    margin-bottom: 50px;
+  }
+  .relate-product .grid-container {
+    margin: 0 46px 70px 46px;
+  }
+  .relate-product .grid-container .grid-content .grid-item {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .relate-product .grid-container {
+    margin: 0 46px 89px 70px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .relate-product .grid-container .grid-content .grid-item {
+    padding: 15px;
+  }
+  .relate-product .grid-container .grid-content .grid-item .card .thumbnail img {
+    padding: 20px 34px 0px;
+  }
 }

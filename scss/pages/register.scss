@@ -97,7 +97,6 @@
 					//thảo thêm 
 					p {
 						margin-top: 15px;
-						color: #F50E0E;
 					}
 
 				}
@@ -215,7 +214,6 @@
 					}
 					p {
 						margin-top: 15px;
-						color: #F50E0E;
 					}
 				}
 				.input1 {
@@ -584,6 +582,14 @@ li {
 					}
 				}
 			}
+		}
+	}
+}
+footer {
+	.footer_img {
+		img {
+			display: block;
+			width: 100%;
 		}
 	}
 }
