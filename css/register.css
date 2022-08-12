@@ -103,6 +103,7 @@
 }
 .register .container .row .col-right .input p {
   margin-top: 15px;
+  color: #F50E0E;
 }
 .register .container .row .col-right .input1 {
   top: 140px;
@@ -217,6 +218,7 @@
 }
 .register .container .row .col-left .input p {
   margin-top: 15px;
+  color: #F50E0E;
 }
 .register .container .row .col-left .input1 {
   top: 140px;
