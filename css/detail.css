@@ -258,18 +258,18 @@ li {
   text-align: center;
   color: #000000;
 }
-.product_feature .product_content .row .col-4 {
+.product_feature .product_content .row .column {
   left: 99px;
   right: 46px;
   margin-bottom: 15px;
 }
-.product_feature .product_content .row .col-4 .card {
+.product_feature .product_content .row .column .card {
   width: 334px;
   height: 369px;
   background-color: #F8F8F8;
   position: relative;
 }
-.product_feature .product_content .row .col-4 .card img {
+.product_feature .product_content .row .column .card img {
   width: 220px;
   height: 156px;
   margin-right: 57px;
@@ -277,42 +277,42 @@ li {
   margin-top: 45px;
   margin-bottom: 30px;
 }
-.product_feature .product_content .row .col-4 .card .info {
+.product_feature .product_content .row .column .card .info {
   margin-left: 23px;
 }
-.product_feature .product_content .row .col-4 .card .info h4 {
+.product_feature .product_content .row .column .card .info h4 {
   font-size: 24px;
   font-weight: 300;
   color: #000000;
 }
-.product_feature .product_content .row .col-4 .card .info p {
+.product_feature .product_content .row .column .card .info p {
   font-size: 20px;
   font-weight: 300;
   color: #CBC9C9;
   margin-bottom: 0;
 }
-.product_feature .product_content .row .col-4 .card .button {
+.product_feature .product_content .row .column .card .button {
   position: absolute;
   bottom: 0;
   left: 15px;
 }
-.product_feature .product_content .row .col-4 .card .button button {
+.product_feature .product_content .row .column .card .button button {
   background-color: #E1B067;
   width: 175px;
   height: 64px;
   border-color: transparent;
 }
-.product_feature .product_content .row .col-4 .card .button button a {
+.product_feature .product_content .row .column .card .button button a {
   font-size: 24px;
   font-weight: 300;
   color: #000000;
 }
-.product_feature .product_content .row .col-4 .card .button .price {
+.product_feature .product_content .row .column .card .button .price {
   width: 159px;
   height: 64px;
   background-color: #DEDDDC;
 }
-.product_feature .product_content .row .col-4 .card .button .price h4 {
+.product_feature .product_content .row .column .card .button .price h4 {
   text-align: center;
   font-size: 24px;
   font-weight: 600;

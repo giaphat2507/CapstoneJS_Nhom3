@@ -261,6 +261,11 @@ li {
   margin: 17px auto;
 }
 
+footer .footer_img img {
+  display: block;
+  width: 100%;
+}
+
 .carousel .container_carousel .carousel1 {
   display: flex;
 }
