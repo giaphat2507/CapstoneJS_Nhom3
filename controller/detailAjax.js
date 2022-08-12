@@ -8,7 +8,7 @@ function getProductByID(id) {
     promise.then(function (result) {
         console.log(result.data.content);
         renderProductDetail(result.data.content);
-        renderRealateProduct(result.data.content);
+        renderRelateProduct(result.data.content);
     });
     //Xử lý thất bại
     promise.catch(function (err) {
@@ -49,7 +49,7 @@ const renderProductDetail = (ObjectProduct) => {
     document.querySelector('.container').innerHTML = html;
 }
 
-const renderRealateProduct = (ObjectProduct) => {
+const renderRelateProduct = (ObjectProduct) => {
     var html = '';
     var arrayProduct = ObjectProduct.relatedProducts
     for (const value of arrayProduct) {
@@ -80,7 +80,8 @@ const renderRealateProduct = (ObjectProduct) => {
 
 window.onload = function () {
     const urlParams = new URLSearchParams(window.location.search);
-    const myParam = urlParams.get('productid');
+    const myParam = urlParams.get('id');
     console.log('params', myParam)
     getProductByID(myParam);
 }
+
